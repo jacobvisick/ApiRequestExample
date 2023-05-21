@@ -1,0 +1,8 @@
+﻿@model IEnumerable<AnimalFact>
+
+<ul>
+    @foreach(AnimalFact fact in Model)
+    {
+        <li>@fact.text</li>
+    }
+</ul>
